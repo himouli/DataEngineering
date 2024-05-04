@@ -31,3 +31,11 @@ a data pipeline. Data pipelines must be able to process large amounts of data in
 source and sink connectors to read data from and write data to various storage systems. Again, Flink does all of this.
 
 ![image](https://github.com/himouli/DataEngineering/assets/156985545/4e974edf-75df-4cf3-9689-a5b01dbca934)
+
+The observation that data processing systems (at this point in time) could either provide fast or accurate results led to the design of the so-called lambda architecture
+** LAMBDA Architecture
+![image](https://github.com/himouli/DataEngineering/assets/156985545/5c032e9d-ee96-417d-924e-5417280b72bf)
+
+
+
+
