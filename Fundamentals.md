@@ -1,11 +1,31 @@
 
-Transition from traditional architecture to Micro Services Architecture:
+## Event Stream
+![image](https://github.com/himouli/DataEngineering/assets/156985545/72270821-0447-42ae-aee5-a1907c581f13)
+
+### Event Shelf Life
+![image](https://github.com/himouli/DataEngineering/assets/156985545/8dc725f4-1f02-4722-b0d6-ce69c5888c66)
+
+### Batch Processing
+![image](https://github.com/himouli/DataEngineering/assets/156985545/9cb595a6-90d3-4190-b46d-699973007f2b)
+
+### Real-Time Processing
+![image](https://github.com/himouli/DataEngineering/assets/156985545/14b56ce5-b297-4e0f-972f-800aa0e59f07)
+
+### Real-Time Analytics UseCases
+![image](https://github.com/himouli/DataEngineering/assets/156985545/3b4bf596-16a9-4a15-80e4-aa72d45205d9)
+
+### Real-Time Analytics Quadrants 
+![image](https://github.com/himouli/DataEngineering/assets/156985545/14a87582-00b2-4daa-8b83-d2bdf6042efa)
+
+
+
+## Transition from traditional architecture to Micro Services Architecture:
 
 ![image](https://github.com/himouli/DataEngineering/assets/156985545/3dc9eff5-29d7-4e19-9991-ebe1c1cc66d3)
 
 ![image](https://github.com/himouli/DataEngineering/assets/156985545/051c5861-464c-48ed-9bc9-71e140499d31)
 
-Traditional Datawarehouse for data analytics
+## Traditional Datawarehouse for data analytics
 
 ![image](https://github.com/himouli/DataEngineering/assets/156985545/a3af7ac7-661a-4d71-82e5-7fbf39227bdb)
 
@@ -37,5 +57,38 @@ The observation that data processing systems (at this point in time) could eithe
 ![image](https://github.com/himouli/DataEngineering/assets/156985545/5c032e9d-ee96-417d-924e-5417280b72bf)
 
 
+## Modern Streaming Stack
 
+![image](https://github.com/himouli/DataEngineering/assets/156985545/e6e39ff5-41ae-4e34-a9cd-f7ac6c8895be)
 
+### Event Producers
+![image](https://github.com/himouli/DataEngineering/assets/156985545/99d60bd0-3263-4e78-97ac-35308a5b5967)
+
+### Streaming Data Platform
+![image](https://github.com/himouli/DataEngineering/assets/156985545/87a859a5-7388-448c-97aa-993b2511f4ee)
+
+#### Topics in the Streaming Data Platform
+![image](https://github.com/himouli/DataEngineering/assets/156985545/97c80e63-b93f-40df-89ee-2163b019d004)
+
+#### Append only log file
+![image](https://github.com/himouli/DataEngineering/assets/156985545/840271c1-88e2-47af-9283-09450208579b)
+
+### Stream Processing Layer
+![image](https://github.com/himouli/DataEngineering/assets/156985545/40b19c97-7170-4ed6-99b4-92f09f2a1363)
+
+#### Stream Processor Patterns
+![image](https://github.com/himouli/DataEngineering/assets/156985545/66f3085d-1d2b-4d8e-a06b-0d1a5745182d)
+
+#### Diminishing Value of Individual data points
+![image](https://github.com/himouli/DataEngineering/assets/156985545/4db69d97-05e5-4074-8ccf-0ba8d812d118)
+
+#### Increasing Value of collective/aggregate data points
+![image](https://github.com/himouli/DataEngineering/assets/156985545/20ebc61a-d4eb-4002-a505-da305ce70c5e)
+
+### Serving Layer
+![image](https://github.com/himouli/DataEngineering/assets/156985545/2b02fc20-f301-4392-a0c5-f8ed0e022d60)
+* Ingestion Latency
+* Query Latency
+* Concurrency
+* Key-Value Stores/ NoSQL stores / Realtime OLAP
+  
